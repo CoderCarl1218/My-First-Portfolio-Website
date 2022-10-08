@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+
+  background: mintcream;
+}
+ .haha h1{
+ padding-top: 4%;
+ padding-bottom: 1%;
+  font-size: 70px;
+  font-family: Lucida Handwriting;
+  color: chocolate;
+}
+nav{
+  width: 100%;
+  height: 75px;
+  background-color: slategray;
+  line-height: 70px;
+  padding:0px 100px;
+  position:fixed;
+  z-index: 2;
+  border-bottom: 2px solid aquamarine;
+}
+
+
+nav ul{
+  float: left;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  color:#ffff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 30px;
+}
+nav ul li a:hover{
+  color:#c0d96f;
+}
+nav ul li .active{
+ color:#c0d96f;
+
+}
+.haha {
+  width: 100%;
+  position: relative;
+  top:50px;
+  text-align: center;
+}
+.haha hr{
+  border-top: 3px solid black;
+   width:480px;
+   margin: auto;
+   position:relative;
+   top: 35px  ;
+  }
+.about-image{
+  width: 20%;
+   top: 34px;
+    height:250px;
+   position: relative;
+   border: 4px solid cyan;
+}
+.about-content{
+  width: 80%;
+  height : 1280px;
+  margin: auto;
+background: whitesmoke;
+  margin-top: 10%;
+  border: 3px solid gold;
+
+
+}
+.about-content h1{
+  padding-top: 3%;
+  padding-bottom: 3%;
+   font-size: 50px;
+  color: firebrick;
+  font-family: Ink Free;
+  text-align: center;
+}
+.about-content h3 {
+  padding-left:3%;
+  text-align: center;
+}
+.about-content p{
+ text-align:left;
+  padding-left: 15%;
+  padding-right: 10%;
+  text-decoration: none;
+}
+.about-content h4{
+  text-align: left;
+  padding-left: 10%;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.about-content h2{
+  padding-bottom: 20px;
+  font-size: 40px;
+  padding-top: 50px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-family: Ink Free;
+  text-align: center;
+  color:firebrick;
+

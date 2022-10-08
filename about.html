@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <script src="https://kit.fontawesome.com/71846599c9.js" crossorigin="anonymous"></script>
+	 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link href="about.css" rel="stylesheet">
+	<title> Biography</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html"><i class="fa-solid fa-house"></i> BACK</a></li>
+			<li><a href="" class="active"> About</a></li>
+
+		</ul>
+	</nav>
+
+
+   <div class="haha">
+
+	<h1> My Biography</h1>
+	<hr> 
+		 <img src="pp.jpg" alt="" class="about-image">
+	<hr> 
+   </div>
+
+<div class="about-content">
+<h1> ALL ABOUT ME</h1>
+ <h3 style="font-family:times new roman; color: steelblue; text-decoration: underline;"> Carl Danielle Rhey A. Balgos
+ <h3 style="font-family:times new roman; color: lightcoral;">Name</h3>
+  <h3 style="font-family:times new roman; color: steelblue;text-decoration: underline;">20</h3>
+ <h3 style="font-family:times new roman; color: lightcoral;"> Age
+  <h3 style="font-family:times new roman; color: steelblue;text-decoration: underline;">February 12, 2002</h3> 
+ <h3 style="font-family:times new roman; color: lightcoral;"> Birthdate
+ <h3 style="font-family:times new roman; color: steelblue;text-decoration: underline;">Brgy. Linateran, Panay Capiz</h3> 
+<h3 style="font-family:times new roman; color: lightcoral;"> Address</h3><br>
+
+<p>Hello There! ,</p><br>
+ 
+<p> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hi, I am Carl Danielle Rhey A. Balgos, from Panay, Capiz, 22 Years of age, Currently studying at Filamer Christian University, I am not quite good at programming, though still learning. Looking forward to work with you. </p><br>
+<h4 style="font-family:times new roman; color: darkgoldenrod;text-decoration: none;">Parents : <spacer style="font-family:Garamond; color: steelblue;"> Mr. Danilo R. Balgos & Mrs. Rhea A. Balgos	</spacer></h4>
+<h4 style="font-family:times new roman; color: darkgoldenrod;text-decoration: none;">Siblings :<spacer style="font-family:Garamond; color: steelblue;"> (1) Khylle Marco Balgos</spacer></h4> 
+<h4 style="font-family:times new roman; color: darkgoldenrod;text-decoration: none;">Hobbies : <spacer style="font-family:Garamond; color: steelblue;"> Playing Online Games, Watching Anime</spacer></h4> 
+
+
+
+<h2>Outputs and Achievements</h2>
+   
+<div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+    </div>
+    <div class="slideshow-container">
+
+
+    	 <div class="mySlides fade">   
+        <img src="9.JPG" style="width:100%">
+        <div class="text">My Portfolio Website</div>
+      </div>
+
+
+      <div class="mySlides fade">   
+        <img src="8.png" style="width:100%">
+        <div class="text">(POS)<br>Ongoing Project</div>
+      </div>
+
+      <div class="mySlides fade">   
+        <img src="7.jpg" style="width:100%">
+        <div class="text">SHS Thesis Project</div>
+      </div>
+
+      <div class="mySlides fade">   
+        <img src="5.jpg" style="width:100%">
+        <div class="text">OJT/ Work Immersion </div>
+      </div>
+
+
+      <div class="mySlides fade">   
+        <img src="10.jpg" style="width:100%">
+        <div class="text">CAT Graduate </div>
+      </div>
+
+
+      <div class="mySlides fade">
+        <img src="1.jpg" style="width:100%">
+        <div class="text">High School Achiever</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="2.jpg" style="width:100%">
+        <div class="text">High School Graduate <br> (With Honor)</div>
+      </div>
+
+      <div class="mySlides fade">   
+        <img src="3.jpg" style="width:100%">
+        <div class="text">Grade 11 Recognition </div>
+      </div>
+
+
+      <div class="mySlides fade">   
+        <img src="4.jpg" style="width:100%">
+        <div class="text">Senior High School <br>(Academic Awardee)</div> 
+      </div>
+
+
+      <div class="mySlides fade">   
+        <img src="6.jpg" style="width:100%">
+        <div class="text">Senior High School Graduation <br> (With Honor)</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if(n > slides.length) {
+          slideIndex = 1
+        }
+        if(n < 1) {
+          slideIndex = slides.length
+        }
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for(i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+    <style>
+
+      .mySlides {
+        display: none
+           width: 50%;
+      }
+      img {
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 1px solid black;
+       
+        height: 450px;
+      }
+      .slideshow-container {
+        max-width: 450px;
+        position: relative;
+        margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color:yellow;
+        font-weight: bold;
+        font-size: 50px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      /* Caption text */
+      .text {
+        color: blue;
+        font-size: 20px;
+        padding: 25px 0px;
+       
+        bottom: 1px;
+        width: 100%;
+        text-align: center;
+      
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active,
+      .dot:hover {
+        background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+    </style>
+  </body>
+</html>
